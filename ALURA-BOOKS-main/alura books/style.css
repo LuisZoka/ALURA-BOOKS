@@ -103,10 +103,28 @@ display: inline-block;
     background-color: var(--branco);
     text-align: center;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     padding: 1em 0em 0.5em 0em;
 }
 .swiper-slide img{
     width:75%;
+}
+.card-descricao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+.card-botoes{
+    display: flex;
+    justify-content: space-between;
+}
+.botoes{
+    display: flex;
+}
+.card{
+    background:#ffffff;
+    border-radius: 1em;
+    width: 80%;
+    text-align: left;
 }
