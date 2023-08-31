@@ -132,14 +132,14 @@ display: inline-block;
 .card{
     background:#ffffff;
     border-radius: 1em;
-    text-align: left;
+    text-align: justify;
     padding: 1.7em;
     margin: 3em;
 }
 .mais-vendidos-titulo{
     color: var(--laranja);
     background-color: var(--branco);
-    text-align: center;
+    text-align: justify;
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 700;
@@ -148,4 +148,42 @@ display: inline-block;
 }
 .mais-vendidos-imagem{
     height: 400px;
+}
+.botoes-ancora{
+    background-color: var(--laranja);
+    padding: 8px;
+    color: var(--branco);
+    text-decoration: none;
+   height: 30px;
+   text-align: center;
+   margin-top: auto;
+
+ }
+ .descricao-autora{
+    color: #EB9B00;
+    font-size: 50px;
+  padding: 14px;
+    
+}
+.nome-autora{
+    color: #002F52;
+    font-size: 40px;
+    padding: 14px;
+    
+}
+.estrelinha{
+    width: 30%;
+    padding: 14px;
+}
+.final-autora{
+    padding: 14px;
+}
+.topicos{
+    background-color: var(--azul-degrade);
+    text-align: center;
+}
+.titulo-topico{
+    color: #ffffff;
+    font-size: 700;
+    font-size: 20px;
 }
