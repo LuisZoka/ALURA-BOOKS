@@ -210,9 +210,33 @@ padding: 2.70em;
     margin: 6px;
 }
 .rodape{
+    background-color: #ffffff;
     padding: 2em;
 }
-.titulo-rodape{
+.contato-titulo{
     color: #002F52;
-    size:24 px;
+    font-size: 1em;
+    font-weight: 500;
+}
+.contato-texto{
+    font-size: 20px;
+    font-weight: 500;
+}
+.contato-email{
+    display: flex;
+    padding: 1em;
+    border: 5px solid var(--laranja);
+    color: black;
+    border-radius: 25px;
+    width: 32%;
+    text-align: center;
+    background-position: 1em;
+    font-size: 20px;
+
+ 
+}
+.contato-email::placeholder{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #EB9B00;
+    background: url(./img/email.png) no-repeat;
 }
